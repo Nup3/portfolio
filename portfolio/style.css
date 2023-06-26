@@ -26,6 +26,8 @@ hr {
 ul, ol {
   list-style-position: inside;
 }
-p::first-letter {
-  font-size: 30px;
-}
+
+a: link {color: blue}
+a: :visited {color: purple}
+a: hover {color: yellow}
+a: active {color:white }
